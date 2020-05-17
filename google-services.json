@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "184600518662",
+    "firebase_url": "https://prajasahayak.firebaseio.com",
+    "project_id": "prajasahayak",
+    "storage_bucket": "prajasahayak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184600518662:android:66ff2b824cce1550bd6387",
+        "android_client_info": {
+          "package_name": "com.arun.prajasahayak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184600518662-nfb7e2t6b962n72tomslrgcffkuu817t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvLwQPSyyZ3D4W7CMZyRueZ297JVtYnZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184600518662-nfb7e2t6b962n72tomslrgcffkuu817t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

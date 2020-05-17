@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BiharActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/footer">
+
+        <ImageView
+            android:id="@+id/crimg"
+            android:layout_width="20dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/coronaimg" />
+
+        <ImageView
+            android:id="@+id/crimg6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/coronaimg" />
+
+        <ImageView
+            android:id="@+id/crimg2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@id/txt"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="130dp"
+            app:srcCompat="@drawable/coronaimg" />
+
+        <ImageView
+            android:id="@+id/crimg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="90dp"
+            app:srcCompat="@drawable/coronaimg" />
+
+        <ImageView
+            android:id="@+id/crimg4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/dctr"
+            app:srcCompat="@drawable/coronaimg" />
+
+        <ImageView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/dctr"
+            app:srcCompat="@drawable/stay" />
+
+        <ImageView
+            android:id="@+id/dctr"
+            android:layout_width="227dp"
+            android:layout_height="219dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/dctr" />
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/footer_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/loc_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/loc_bg" />
+
+        <ImageView
+            android:id="@+id/loc"
+            android:layout_width="43dp"
+            android:layout_height="39dp"
+            android:layout_alignTop="@id/loc_bg"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/location" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/loc_bg"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@id/loc"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="Bihar"
+            android:textColor="#FD0A0A0A"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/updates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loc_bg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="Cases Update"
+            android:textColor="#050505"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/case_updates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updates"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:text="Newest Update May 17  '20"
+            android:textColor="#4B4444" />
+
+        <ImageView
+            android:id="@+id/case_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updates"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/case_bg" />
+
+        <ImageView
+            android:id="@+id/cnf_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/case_bg"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/cnfrmd" />
+
+        <ImageView
+            android:id="@+id/rec_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/cnf_img"
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@id/cnf_img"
+            app:srcCompat="@drawable/recvrd" />
+
+        <ImageView
+            android:id="@+id/dead_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/cnf_img"
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@id/rec_img"
+            app:srcCompat="@drawable/dead" />
+
+        <TextView
+            android:id="@+id/cnf_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cnf_img"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:text="1179"
+            android:textColor="#FF5722"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/confirmed_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cnf_txt"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:text="Infected"
+            android:textColor="#FF5722"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/rec_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rec_img"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="10dp"
+            android:text="453"
+            android:textColor="#4AB84E"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/recovered_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rec_txt"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:text="Recovered"
+            android:textColor="#4AB84E"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/death_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dead_img"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="10dp"
+            android:text="07"
+            android:textColor="#F80000"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/death_txt"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"
+            android:text="Deaths"
+            android:textColor="#F80000"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

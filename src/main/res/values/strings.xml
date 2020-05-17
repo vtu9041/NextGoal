@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PrajaSahayak</string>
+    <string name="desc">Scan the QR Code if you want to apply through Smartphone and copy - paste the link in Browser.</string>
+    <string name="sym">Symptoms</string>
+    <string name="msk">Wear face mask</string>
+    <string name="wash">Wash your hands</string>
+    <string name="hindi_sym">लक्षण</string>
+    <string name="hindi_prev">निवारण</string>
+    <string name="hindi_mask">फेस मास्क पहनें</string>
+    <string name="hindi_wash">अपने हाथ धोएं</string>
+    <string name="nxt_sys">Next / आगे</string>
+</resources>
